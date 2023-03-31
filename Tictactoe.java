@@ -1,8 +1,4 @@
-/**
- * Tictactoe game
- * @author Swda
- *
- */
+
 public class Tictactoe {
 	private String[][] board;
 	private static final int ROWS = 3;
@@ -29,12 +25,7 @@ public class Tictactoe {
 		}
 	}
 	
-	/**
-	 * setPlay method will set player's move
-	 * @param i
-	 * @param j
-	 * @param player
-	 */	
+	
 	public void setPlay(int i, int j, String player) {
 		if(board[i][j].matches(regex))
 			board[i][j] = " "+player+" ";
